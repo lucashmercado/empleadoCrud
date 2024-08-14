@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ngx-toastr/toastr';
+body{
+    background-image: url('./app/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.badge-danger {
+    color: black; /* Cambiar el color del texto a negro */
+    background-color: red; /* Establecer el fondo en rojo */
+    /* Puedes añadir más estilos según tus necesidades */
+    padding: 5px 10px; /* Agregar relleno para un aspecto más estilizado */
+    border-radius: 4px; /* Añadir bordes redondeados */
+}
